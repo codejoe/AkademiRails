@@ -1,4 +1,4 @@
-# Guess the number recursion
+# Guess the number using recursion
 def guess(min =1, max =100)
   
   tebak = (min+max)/2
