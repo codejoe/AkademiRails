@@ -1,0 +1,500 @@
+irb
+exit
+irb
+exit
+rib
+irb
+rib
+irb
+history
+curl -F 'login=codejoe' -F 'token=89:86:88:d8:a3:92:5a:49:3b:00:b0:c9:1f:1f:03:9b' 
+curl
+curl --help
+https://github.com/api/v2/yaml/repos/create -F name=Hello-Ruby
+curl -u 'codejoe' https://api.github.com/user/repos -d '{"name":"Hello-Ruby"}'
+cd /home/naufal/
+ls
+cd WWW/
+ls
+mkdir Hello-Ruby
+cd Hello-Ruby/
+ls
+dir
+ls -lia
+echo "Hello Ruby, please be nice i am new here"  >> Readme.md
+ls
+git remote add origin git@github.com:codejoe/Hello-Ruby
+git push origin master
+git remote add origin git@github.com:codejoe/Hello-Ruby
+git push origin master
+ssh -vT git@github.com
+history
+cd.\home\naufal
+cd .\home
+ls
+whereis
+where am i
+cd \home
+cd /home/naufal/.ssh/
+ls
+vi id_rsa.pub 
+ssh -v
+ls -a ~/.ssh
+cd /home/naufal/WWW/
+cd Hello-Ruby/
+ls
+git push origin master
+ssh-keygen -t rsa -C "naufal26.tik@gmail.com"
+xclip -sel clip < ~/.ssh/id_rsa.pub 
+vi /home/naufal/.ssh/id_rsa.pub 
+git push origin master
+git init
+git add .
+git commit -m 'first commitment'
+git remote add origin http://git.github.com/codejoe/Hello-Ruby.git
+git push origin master
+git remote add origin https://git.github.com/codejoe/Hello-Ruby.git
+git push origin master
+git remote add origin https://git.github.com/codejoe/Hello-Ruby.git
+git remote delete origin http://git.github.com/codejoe/Hello-Ruby.git
+git remote rm origin http://git.github.com/codejoe/Hello-Ruby.git
+git remote rm origin http:/a/git.github.com/codejoe/Hello-Ruby.git
+git remote add origin https://github.com/codejoe/Hello-Ruby.git
+git push origin master
+git update-server-info
+git push origin master
+git remote add origin https://github.com/codejoe/Hello-Ruby.git
+git push origin master
+cd /home/naufal/WWW/Hello-Ruby/
+ls
+git push origin master
+ssh-add -l
+git push origin master
+vi /home/naufal/.ssh/id_rsa.pub 
+git push origin master
+ssh -vT git@github.com
+ssh -T codejoe@github.com
+ssh -add -l
+ssh-add -l
+ssh -vT git@github.com
+ssh-add -l
+ssh-keygen -lf ~/.ssh/id_rsa.pub
+git push origin master
+cd ~/.ssh
+ls
+ssh-keygen -t rsa -C "naufal26.tik@gmail.com"
+ssh-add id_rsa
+sudo apt-get install xclip
+xclip -sel clip > ~/.ssh/id_rsa.pub
+xclip -sel clip < ~/.ssh/id_rsa.pub
+vi id_rsa.pub 
+ssh-keygen -t rsa -C "naufal26.tik@gmail.com"
+ssh-add id_rsa
+xclip -sel clip < ~/.ssh/id_rsa.pub
+git remote add origin https://github.com/codejoe/Hello-Ruby.git
+vi id_rsa
+sudo -s
+history
+rails
+cd /home/naufal/
+gem install rails
+rails
+rake
+cd /home/naufal/WWW/Hello-Ruby/
+git remote add origin https://github.com/codejoe/Hello-Ruby.git
+git push origin master
+ls
+ls -lia
+git init
+ls -lia
+git remote add origin https://github.com/codejoe/Hello-Ruby.git
+git push origin master
+git init
+git remote add origin https://github.com/codejoe/Hello-Ruby.git
+git add .
+git commit
+git commit "hello"
+git commit -t "hello"
+git commit -m "hello"
+git remote add origin https://github.com/codejoe/Hello-Ruby.git
+git push origin master
+xclip -sel clip < ~/.ssh/id_rsa.pub 
+history
+cd ..
+ls
+cd nusantara/
+ls
+echo "test" > test.php
+git add .
+git push origin master
+ls
+git add .
+git add test.php
+git commit -m 'adding test.php'
+git push origin master
+cd ..
+cd Hello-Ruby/
+echo 'mantab' > mantab.rb
+git add .
+git commit -m 'commit test ke dua'
+git push origin master
+rails new Hello-Ruby
+rails
+ls
+history
+ruby -v
+rails -v
+gem list
+rails 
+rail
+rails
+rails -s
+cd ..
+rails
+echo $PATH
+gem environment
+ls -lia /usr/local/bin/
+ls -lia /usr/bin/rails
+gem install rails
+cd /home/naufal/WWW/
+rails -v
+ruby -b
+ruby -v
+rails -v
+rails new Ruby
+gem install rails 
+rails -v
+rails new
+gem environment
+$PATH
+gem install rails --include-dependencies
+rails
+gem update --system
+rails -v
+ruby --version
+ruby use
+ruby
+cd ..
+cd railsblog/
+ls
+rails -s
+ls -lia
+rails
+gem install sinatra
+vi myapp.rb
+gedit myapp.rb
+ruby myapp.rb
+gedit myapp.rb
+ruby myapp.rb
+gedit myapp.rb
+ruby myapp.rb
+rackup
+cd ..
+cd WWW
+gem install rails
+rails new myapp
+gems install rails -v '3'
+gem install rails -v '3'
+rails new myapp
+rails -v
+gem environment
+gem install rails -v '3.2.14'
+rails
+sudo gem install rails
+sudo apt-get install rails
+gem environment
+rvm
+which ruby
+rvm -v
+ruby -v
+rails -v
+gem install bundler
+gem install rails
+rails
+find rails
+sudo gem install rails
+gem
+cd ..
+cd railsblog/
+rake
+rails -s
+rake stats
+rails 
+sudo apt-get instlal rails
+sudo apt-get install rails
+gem install rails
+rails
+gem install rails
+sudo gem install rails
+sudo 
+sudo -s gem install rails
+rails
+gem install rails -V
+cd /home/naufal/.rvm/gems/ruby-1.9.3-p194/gems/rails-3.2.14/
+ls
+ls -lia
+cd ..
+rails-4.0.1/
+cd rails-4.0.1/
+ls
+cd guides/
+ls
+rails_guides.rb
+cd \
+rails
+gem install rails -V
+gem install rails -v '3.2.14'
+cd /home/naufal/.rvm/gems/ruby-1.9.3-p194/gems/rails-3.2.14/
+ls
+cd
+gem -v
+sudo gem install rails
+sudo /usr/bin/gem install rails
+gem environment
+export /home/naufal/.rvm/bin:$PATH
+export PATH=/home/naufal/.rvm/bin:$PATH
+sudo gem install rails
+gem install rails
+sudo chown -R naufal: ~/.rvm/
+sudo rm -rf ~/.rvm/
+gem install rails
+gem
+gem environment
+gem
+sudo chown -R naufal: ~/.rvm/
+man foremost
+foremost
+sudo apt-get install foremost
+sudo apt-get update
+ruby -v
+sudo apt-get install rubygems
+gem environment
+gem install rubygems-update
+rbenv shell 2.0.0-p247
+sudo apt-get install rbenv
+rbenv shell 2.0.0-p247
+rbenv shell
+shell rbenv 2.0.0-p247
+rbenv install 2.0.0-p247
+sudo gem install rubygems-update
+update_rubygems
+sudo update_rubygems
+gem -env
+gem env
+sudo gem update --system
+gem env
+ruby -v
+gem -v
+rvm install 1.9.3
+sudo apt-get install ruby-rvm
+rvm list known
+rvm install 1.9.3
+ruby -v
+ls
+rvm -update
+rvm usage
+rvm help
+cd /home/naufal/Desktop/
+ln -s /home/naufal/.bash_history myhistory
+gem list
+curl -L https://get.rvm.io | bash -s stable
+sudo apt-get --purge remove ruby-rvm 
+sudo rm -rf /usr/share/ruby-rvm /etc/rvmrc /etc/profile.d/rvm.sh
+env | grep rvm
+env 
+env | grep rvm
+\curl -L https://get.rvm.io |    bash -s stable --ruby --autolibs=enable --auto-dotfiles
+\curl -L https://get.rvm.io |  .x
+aptitude install git zsh libssl-dev zlib1g-dev libreadline-dev libyaml-dev
+sudo apt-get install git zsh libssl-dev zlib1g-dev libreadline-dev libyaml-dev
+git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+exec $SHELL
+# Install the ruby-build plugin for easy building of rubies.
+mkdir -p ~/.rbenv/plugins
+cd ~/.rbenv/plugins
+git clone git://github.com/sstephenson/ruby-build.git
+cd where/ever# Install a couple rubies
+rbenv install 1.8.7-p358
+rbenv install 1.9.3-p125
+rbenv rehash
+# Try out a ruby.
+rbenv shell 1.9.3-p125
+# Enable a newly installed ruby, persistently, globally.
+rbenv global 1.9.3-p125
+# Enable a ruby persistently just for this directory.
+rbenv local 1.8.7-p358
+rbenv rehash# Install bundler, create a Gemfile, install to project.
+gem install bundler
+>Gemfile <<<'gem "ronn"'
+bundle install --path vendor
+bundle exec gem env
+ruby -v
+ruby use
+gem env
+\curl -L https://get.rvm.io | bash -s stable --ruby
+rvm env
+env rvm
+rvm list
+sudo apt-get --purge remove ruby-rvm 
+cd \
+sudo apt-get autoremove ruby-rvm
+\curl -L https://get.rvm.io | bash -s stable --ruby
+rvm env
+env rvm
+rvm list
+rvm install 1.9.2
+gem env
+rvm
+rvm list
+rvm help install
+rvm install 1.9.3
+rvm list
+rvm requirements
+sudo apt-get update
+sudo rm /var/lib/apt/lists/& -vf
+sudo rm /etc/apt/sources.list.d/medibuntu.list
+sudo apt-get update
+rvm list
+rvm requirements
+curl -L https://get.rvm.io | bash -s stable --ruby
+ruby -v
+rvm list
+rvm install 1.9.3
+rvm list
+rvm use 2.0.0
+rvm use 1.9.3
+rvm list 
+rvm rubygems latest
+ruby --version
+ruby -v
+gem env
+rvm use 1.9.3
+rvm use
+rvm use 1.9.3
+ls
+rake
+cd..
+cd ..
+cd WWW/Hello-Ruby/
+ls
+gedit rakefile
+ls
+rake
+cd ..
+cd ..
+ls
+cd WWW
+ls
+cd ..
+ls
+ls
+dir
+where
+whereami
+cd /home/
+ls
+cd naufal/
+ls
+cd railsblog/
+ls
+ruby myapp.rb
+gem install sinatra
+ruby myapp.rb
+rvm list
+rvm use 1.9.3
+ruby -v
+gem env
+rvm rubygems latest
+gem env
+rvm use 2.0.0
+rvm rubygems latest
+gem install rails
+rails new rubyapp
+cd rubyapp/
+rails -s
+rails server
+mysql
+gem install thin
+sudo apt-get update
+sudo apt-get upgrade
+ls
+./ hacketyhack-1.0.1.run 
+./hacketyhack-1.0.1.run 
+sudo ./hacketyhack-1.0.1.run 
+chmod u+x hacketyhack-1.0.1.run 
+./hacketyhack-1.0.1.run 
+sudo apt-get install libjpeg62
+./hacketyhack-1.0.1.run 
+sudo apt-get install libjpeg62:i386
+./hacketyhack-1.0.1.run 
+sqlite3 -version
+gem env
+gem install sqlite3-ruby
+sqlite3 version
+bundle install
+cd WWW/
+ls
+cd ..
+ls
+cd rubyapp/
+ls
+bundle install
+rails server
+find catalyst
+find cata
+appletviewer 
+show app
+exit
+sudo -s
+gksudo
+uname
+cat ~/pkglist
+dpkg
+sudo %amd%
+sudo apt-get update
+dpkg-l
+dpkg- l
+dpkg --get-selections > amd
+dpkg --get-selections > gedit
+dpkg --get-selections > .txt
+dpkg --get-selections 
+synaptic
+fglrc-amdcccle
+fglrxinfo 
+fgl_glxgears 
+amdcccle 
+sudo amdcccle 
+sudo apt-get upgrade
+sudo apt-get update
+irb
+cd /home/naufal/WWW/Hello-Ruby/
+ls
+ruby roman.rb
+ruby roman.rb
+ruby roman.rb
+ruby roman.rb
+ruby roman.rb
+ruby roman.rb
+ruby roman.rb
+ruby roman.rb
+git add .
+git commit -m 'menambahkan roman.rb'
+git push origin master
+ruby number_to_word.rb
+ruby number_to_word.rb
+ruby number_to_word.rb
+ruby number_to_word.rb
+ruby number_to_word.rb
+git add .
+git commit -m 'third commit'
+git push origin master
+git push origin master
+ruby date.rb 
+ruby date.rb 
+ruby date.rb 
+ruby date.rb 
+git add .
+git commit -m 'date.rb'
+git push origin master
