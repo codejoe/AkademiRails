@@ -25,8 +25,8 @@ puts converttobase(9,4)
 # 	end
 # end
 
-#puts converttobase(9,2)
-#puts converttobase(9,2) == '1001'
+# puts converttobase(9,2)
+# puts converttobase(9,2) == '1001'
 # puts converttobase(9,4) == '21'
 # puts converttobase(12,16) == 'c'
 # puts converttobase(255,2) == '11111111'
