@@ -1,0 +1,19 @@
+syntax day 9
+=============
+require 'sqlite3'
+db = SQLite3::Database.open 'test.db'
+db.execute 'select * from cars'
+stm = db.prepare "select * from cars where id = ?"
+stm.bind_param 1, 3
+stm.bind_param 2, 'v%'
+rs = stm.execute
+rs.first.inspect
+stm = db.prepare "select * from cars where id = ? or name like ?"
+rs.each {|row| puts row.join("\s")}
+db.get_first_row('select * from cars')
+db.results_as_hash = true
+stm = db.prepare "select * from cars where id = :id or name like :name"
+rs = stm.execute name: 'v%', :id = 3
+rs = stm.execute name: 'v%', id: 3
+rs.each {|r| puts r.inspect}
+
