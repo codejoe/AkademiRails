@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learn Sinatra</title>
+</head>
+<body>
+<style type="text/css">
+  ul li{
+    display: inline-block;;
+    margin-right: 10px;
+  }
+  td {
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+</style>
+<%=
+#"This is process #{Process.pid}"
+%>
+<ul>
+  <li>
+    <a href="/">Colleges</a>
+  </li>
+  <li>
+    <a href="/faculties">Faculties</a>
+  </li>
+  <li>
+    <a href="/majors">Majors</a>
+  </li>
+  <li>
+    <a href="/semesters">Semesters</a>
+  </li>
+  <li>
+    <a href="/courses">Courses</a>
+  </li>
+  <li>
+    <a href="/lecturers">Lecturers</a>
+  </li>
+  <li>
+    <a href="/students">Students</a>
+  </li>
+</ul>
+<%= yield %>
+</body>
+</html>

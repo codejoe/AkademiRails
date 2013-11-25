@@ -1,0 +1,43 @@
+
+<% 
+path = request.path_info
+case path
+when '/faculties'
+  objects = @faculties
+when '/majors'
+  objects = @majors
+when '/semesters'
+  objects = @semesters
+when '/courses'
+  objects = @courses
+when '/lecturers'
+  objects = @lecturers
+when '/students'
+  objects = @students      
+else
+  objects = @colleges
+end
+ %>
+<table>
+  <tr>
+    <th>Name <%= path %></th>
+    <th>Do</th>
+  </tr>
+  <% objects.all.each do |object| %>
+  <tr>
+    <td><%= object.name %></td>
+    <td>
+      <a href="update">Update</a> | 
+      <a href="delete">Delete</a> 
+    </td>
+  </tr>
+  <% end %>
+</table>
+
+<br/>
+Create New
+<form action="" method="post">
+  Name: <input type="text" name="name">
+  <input type="submit" name="submit" value="Submit">
+</form>
+<br/>

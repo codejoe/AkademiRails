@@ -1,0 +1,21 @@
+<br />
+<a href="/college/new"> New College </a>
+<br /><br />
+<table>
+  <tr>
+    <th>College Name</th>
+    <th>Do</th>
+  </tr>
+  <% @colleges.all.each do |college| %>
+  <tr>
+    <td><%= college.name %></td>
+    <td>
+      <a href="college/<%= college.id %>/edit">Update</a> | <br>
+      <form id="frm-delete-<%= college.id %>" action="/college/<%= college.id %>" method="post">
+      <input type="hidden" name="_method" value="delete">
+      <a href="#" onclick="document.getElementById('frm-delete-<%= college.id %>').submit()">Delete</a> 
+      </form>
+    </td>
+  </tr>
+  <% end %>
+</table>

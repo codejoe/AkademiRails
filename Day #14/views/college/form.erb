@@ -1,0 +1,20 @@
+<%
+if request.path_info == 'college/new'
+%>
+<form action="/college/new" method="post">
+  Name: <input type="text" name="name">
+  <input type="submit" name="submit" value="Submit">
+</form>
+<br/>
+<%
+else
+%>
+<form action="/college/<%= @college.id %>" method="post">
+ <input type="hidden" name="_method" value="put"> 
+  Name: <input type="text" name="name" value="<%= @college.name %>">
+  <input type="submit" name="submit" value="Submit">
+</form>
+<br/>
+<%
+end
+%>
