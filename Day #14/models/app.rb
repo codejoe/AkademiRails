@@ -17,7 +17,9 @@ require_relative 'student_course'
 
 ActiveRecord::Base.establish_connection(
   adapter: "sqlite3",
-  database: "campus.db"
+  database: "campus.db",
+  pool: 30,
+  timeout: 5000
 )
 
 ActiveRecord::Schema.define do

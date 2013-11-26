@@ -1,3 +1,7 @@
 <h2>Create New College</h2>
 
 <%= erb :'college/form' %>
+
+<%= @college.errors.full_messages.first if defined? @college
+#binding.pry
+%>

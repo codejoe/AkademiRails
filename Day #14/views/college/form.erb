@@ -1,20 +1,18 @@
 <%
-if request.path_info == 'college/new'
-%>
-<form action="/college/new" method="post">
-  Name: <input type="text" name="name">
-  <input type="submit" name="submit" value="Submit">
-</form>
-<br/>
-<%
+#binding.pry
+if !defined? @college
+  action = '/college/new'
+  put = ''
+  value = ''
 else
-%>
-<form action="/college/<%= @college.id %>" method="post">
- <input type="hidden" name="_method" value="put"> 
-  Name: <input type="text" name="name" value="<%= @college.name %>">
-  <input type="submit" name="submit" value="Submit">
-</form>
-<br/>
-<%
+  action = "/college/#{@college.id}"
+  put = '<input type="hidden" name="_method" value="put">'
+  value = @college.name
 end
 %>
+<form action="<%= action %>" method="post">
+ <%= put %> 
+  Name: <input type="text" name="name" value="<%= value %>">
+  <input type="submit" name="submit" value="Submit">
+</form>
+<br/>

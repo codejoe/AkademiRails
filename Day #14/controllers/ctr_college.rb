@@ -15,8 +15,12 @@ get '/college/new' do
 end
 
 post '/college/new' do  
-  College.create(name: params[:name])
-  redirect to('/college')
+  @college = College.create(name: params[:name])
+  if @college.new_record?
+     erb :'college/new'
+  else
+    redirect to('/college')
+  end
 end 
 
 delete '/college/:id' do
